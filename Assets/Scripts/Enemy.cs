@@ -34,9 +34,10 @@ public class Enemy : MonoBehaviour
     private void HitByBullet()
     {
         health -= damage;
+        Debug.Log("Damage: " + damage);
         Debug.Log("Bullet Hit after: " + health);
 
-        if (health == 0)
+        if (health <= 0)
         {
             Debug.Log("Hits are 5 Destroying Enemy, the value is: " + health);
             Destroy(gameObject);

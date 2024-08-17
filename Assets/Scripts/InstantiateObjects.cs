@@ -44,7 +44,7 @@ public class InstantiateObjects : MonoBehaviour
             // Configure object as destructible
             randomObj.tag = randomObj.name = "Destructible"; 
             spriteColor.color = Color.blue; 
-            Destroy(randomObj, 20f); 
+            Destroy(randomObj, 50f); 
         }
 
         // Wait for 2 seconds before restarting the coroutine

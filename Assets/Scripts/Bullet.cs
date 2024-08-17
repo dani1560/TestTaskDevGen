@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
     {
         uiManager = FindObjectOfType<UIManager>();
         Score = uiManager.Score;
-        Destroy(gameObject, 6f);
+        Destroy(gameObject, 5f);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
