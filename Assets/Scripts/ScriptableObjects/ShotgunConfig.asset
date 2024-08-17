@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee8b8b529284d48b650a4b290364bb, type: 3}
+  m_Name: ShotgunConfig
+  m_EditorClassIdentifier: 
+  bulletSpeed: 10
+  fireRate: 1
+  targetRadius: 5
+  damage: 2
+  bulletPrefab: {fileID: 8589352128878394298, guid: f9130f77fbad94748b2ff5e47b3fc6c7, type: 3}
+  shotgunPellets: 5
+  spreadAngle: 15
